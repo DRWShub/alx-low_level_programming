@@ -2,7 +2,7 @@
 
 /**
  	* main - Entry point
- 	* Description: prints "Programming is like building a multilingual puz5"
+ 	* Description: prints Programming is like building a multilingual puz5
  	* Return: Always 0 (Success)
 */
 
