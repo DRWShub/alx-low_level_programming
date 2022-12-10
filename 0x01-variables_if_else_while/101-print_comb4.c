@@ -10,6 +10,7 @@
 int main(void)
 {
 	int i, j, k;
+
 	i = 48;
 	j = 48;
 	k = 48;
