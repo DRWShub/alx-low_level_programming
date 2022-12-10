@@ -4,7 +4,7 @@
 
 /**
  * main - determine if number is positive or negative
- * Description: Determine value of random numbers 
+ * Description: Determine value of random number
  * Return: Always 0 (Success)
  */
 
