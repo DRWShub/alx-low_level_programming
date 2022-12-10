@@ -11,6 +11,7 @@
 int main(void)
 {
 	int i = 122;
+
 	while (i > 96)
 	{
 		putchar(i);
