@@ -5,6 +5,7 @@
  *	Description: prints _putchar
  *	Return: 0 (Success)
  */
+
 int main(void)
 {
 	char text[8] = "_putchar";
