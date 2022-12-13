@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- *  * main - prints Holberton
- *   *
- *    * Description: prints Holberton
- *     *
- *      * Return: 0 (Success)
+ *	main - prints Holberton
+ *	Description: prints Holberton
+ *	Return: 0 (Success)
  */
 int main(void)
 {
