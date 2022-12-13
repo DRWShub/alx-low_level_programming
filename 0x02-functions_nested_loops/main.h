@@ -1,3 +1,1 @@
-#ifndef MAIN_H
-#define MAIN_H
-#endif
+int putchar(char c);
