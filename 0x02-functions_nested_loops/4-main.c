@@ -7,6 +7,6 @@
 
 int main(void)
 {
-	_isalpha();
+	int _isalpha();
 	return (0);
 }

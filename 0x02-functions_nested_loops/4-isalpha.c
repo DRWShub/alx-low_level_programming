@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  *	_isalpha - checks for alphabetic character
@@ -9,6 +9,7 @@ include "main.h"
 int main(void)
 {
 	int r;
+	
 	r = _isalpha('H');
 	_putchar(r + '0');
 	r = _isalpha('o');
