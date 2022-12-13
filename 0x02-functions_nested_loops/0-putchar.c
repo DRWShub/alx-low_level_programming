@@ -1,13 +1,19 @@
-#include <stdio.h>
+#include "stdio.h"
+#include "main.h"
 
 /**
- *	main - prints _putchar
- *	Description - program that prints _putchar, followed by a new line.
- *	Return: 0 (Success)
+ *  * print_alphabet - print alphabet
+ *   *
+ *    * Return: void
  */
-
-int main(void)
+void print_alphabet(void)
 {
-	printf("_putchar","\n");
-	return (0);
+	char letter = 'a';
+
+	while (letter <= 'z')
+	{
+		_putchar(letter);
+		letter++;
+	}
+	_putchar('\n');
 }
