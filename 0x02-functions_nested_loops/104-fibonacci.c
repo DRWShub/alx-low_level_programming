@@ -19,5 +19,9 @@ int main(void)
 		printf("%d, ", sum);
 		first = second;
 		second = sum;
+		count++;
 	}
-}	
+	sum = first + second;
+	printf("%d\n", sum);
+	return (0);
+}
