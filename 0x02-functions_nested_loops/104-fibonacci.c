@@ -2,28 +2,26 @@
 
 /**
  *
- * Main - prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+ * Main - prints the first 98 Fibonacci numbers, starting with 1 and 2
  * Return: Always 0.
  */
 
 int main(void)
 {
-	int total_sum, sum, first, second;
+	int sum, first, second, count;
 
-	total_sum = 0;
 	sum = 0;
-	first = 1;
-	second = 2;
-	while (sum < 97)
+	first = 0;
+	second = 1;
+	count = 0;
+	while (count < 97)
 	{
 		sum = first + second;
-		if  (sum % 2 ==0)
-		{
-			total_sum += sum;
-		}
+		printf("%d, ", sum);
 		first = second;
 		second = sum;
 	}
+	sum = first + second;
 	printf("%d\n", total_sum);
 	return (0);
 }
