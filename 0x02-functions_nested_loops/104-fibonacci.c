@@ -10,8 +10,8 @@ int main(void)
 	int sum, first, second, count;
 
 	sum = 0;
-	first = 0;
-	second = 1;
+	first = 1;
+	second = 2;
 	count = 0;
 	while (count < 97)
 	{
