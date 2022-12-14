@@ -10,4 +10,3 @@ int main(void)
 	print_sign();
 	return (0);
 }
-
