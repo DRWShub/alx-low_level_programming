@@ -14,7 +14,6 @@ int main(void)
 	sum = 0;
 	first = 1;
 	second = 2;
-
 	while (sum < 97)
 	{
 		sum = first + second;
@@ -25,7 +24,6 @@ int main(void)
 		first = second;
 		second = sum;
 	}
-
 	printf("%d\n", total_sum);
 	return (0);
 }
