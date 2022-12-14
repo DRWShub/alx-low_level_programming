@@ -10,8 +10,8 @@ int main(void)
 	int sum, first, second, count;
 
 	sum = 0;
-	first = 1;
-	second = 2;
+	first = 0;
+	second = 1;
 	count = 0;
 	while (count < 97)
 	{
@@ -20,7 +20,4 @@ int main(void)
 		first = second;
 		second = sum;
 	}
-	sum = first + second;
-	printf("%d\n", sum);
-	return (0);
-}
+}	
