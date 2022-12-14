@@ -31,7 +31,7 @@ void times_table(void)
 			else
 			{
 				_putchar(',');
-				_putchar(' ');		
+				_putchar(' ');
 				_putchar(tens + '0');
 				_putchar(ones + '0');
 			}
