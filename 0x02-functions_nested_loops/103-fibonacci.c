@@ -12,6 +12,7 @@ int main(void)
 	sum = 0;
 	first = 0;
 	second = 1;
+	
 	while (sum < 4000000)
 	{
 		sum = first + second;
