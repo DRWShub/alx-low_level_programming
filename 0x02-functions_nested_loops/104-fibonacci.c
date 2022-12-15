@@ -9,14 +9,14 @@ int main(void)
 {
 	int sum, first, second, count;
 
-	sum = 0;
+	sum = 1;
 	first = 0;
 	second = 1;
 	count = 0;
 	while (count < 97)
 	{
 		sum = first + second;
-	/*	printf("%d, ", sum);*/
+		printf("%d, ", sum);
 		first = second;
 		second = sum;
 		count++;
