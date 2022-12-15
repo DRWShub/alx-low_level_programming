@@ -14,11 +14,11 @@ int main(void)
 		sum = first + second;
 		if (i != 98)
 		{
-			printf("%d, ", sum);
+			printf("%u, ", sum);
 		}
 		else
 		{
-			printf("%d\n", sum);
+			printf("%u\n", sum);
 		}
 		first = second;
 		second = sum;
