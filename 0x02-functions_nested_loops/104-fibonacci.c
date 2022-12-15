@@ -11,11 +11,10 @@ int main(void)
 
 	for (i = 0; i < n; i++)
 	{
-		printf("%d", fibonacci_numbers(i));
+		printf("%d", fibonacci_numbers());
 	}
-	return (0);	
+	return (0);
 }
-
 int fibonacci_numbers(int n)
 {
 	if (n == 0)
