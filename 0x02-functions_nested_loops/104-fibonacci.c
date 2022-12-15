@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int i, n1 = 0, n2 = 1, sum, n = 98;
+	int i, n1 = 0, n2 = 1, sum = 1, n = 98;
 
 	for (i = 0; i < n; i++)
 	{
