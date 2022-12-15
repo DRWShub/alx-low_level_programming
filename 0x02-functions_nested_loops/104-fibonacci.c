@@ -7,15 +7,21 @@
 
 int main(void)
 {
-	int i, n1 = 0, n2 = 1, sum = 1, n = 98;
-
-	for (i = 0; i < n; i++)
+	int first = 0, second = 1, sum, i;
+	
+	for (i = 1; i<= 98; i++)
 	{
-		printf("%d", sum);
-		n1 = n2;
-		n2 = sum;
+		sum = first + second;
+		if (i != 98)
+		{
+			printf("%d, ", sum);
+		}
+		else
+		{
+			printf("%d\n", sum);
+		}
+		first = second;
+		second = sum;
 	}
-	sum = n1 + n2;
-	printf("%d", sum);
 	return (0);
 }
