@@ -7,26 +7,23 @@
 
 int main(void)
 {
-	int i, n = 98;
+	int i, sum = 0, n = 98;
 
 	for (i = 0; i < n; i++)
 	{
-		printf("%d", fibonacci_numbers());
+		if (n == 0)
+		{
+			sum = 0;
+		}
+		else if (n == 1)
+		{
+			sum - 1;
+		}
+		else
+		{
+			sum = (n - 2) + (n - 1);
+		}
 	}
-	return (0);
-}
-int fibonacci_numbers(int n)
-{
-	if (n == 0)
-	{
-		return (0);
-	}
-	else if (n == 1)
-	{
-		return (1);
-	}
-	else 
-	{
-		return fibonacci_numbers(n-2) + fibonacci_numbers(n-1);
-	}
+	printf("%d", sum);
+	return (sum);
 }
