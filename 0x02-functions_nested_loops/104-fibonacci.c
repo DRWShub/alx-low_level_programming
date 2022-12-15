@@ -11,11 +11,11 @@ int main(void)
 
 	for (i = 0; i < n; i++)
 	{
-		if (n == 0)
+		if (i == 0)
 		{
 			sum = 0;
 		}
-		else if (n == 1)
+		else if (i == 1)
 		{
 			sum = 1;
 		}
