@@ -7,21 +7,27 @@
 
 int main(void)
 {
-	int sum, first, second, count;
+	int i, n = 98;
 
-	sum = 1;
-	first = 0;
-	second = 1;
-	count = 0;
-	while (count < 97)
+	for (i = 0; i < n; i++)
 	{
-		sum = first + second;
-		printf("%d, ", sum);
-		first = second;
-		second = sum;
-		count++;
+		printf("%d", fibonacci_numbers(i));
 	}
-	sum = first + second;
-	printf("%d\n", sum);
-	return (0);
+	return (0);	
+}
+
+int fibonacci_numbers(int n)
+{
+	if (n == 0)
+	{
+		return (0);
+	}
+	else if (n == 1)
+	{
+		return (1);
+	}
+	else 
+	{
+		return fibonacci_numbers(n-2) + fibonacci_numbers(n-1);
+	}
 }
