@@ -16,7 +16,7 @@ int main(void)
 	while (count < 97)
 	{
 		sum = first + second;
-		printf("%d, ", sum);
+	/*	printf("%d, ", sum);*/
 		first = second;
 		second = sum;
 		count++;
