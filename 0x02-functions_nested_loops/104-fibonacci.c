@@ -16,6 +16,6 @@ int main(void)
 		n1 = n2;
 	}
 	sum = n1 + n2;
-	print("%d", sum);
+	printf("%d", sum);
 	return (0);
 }
