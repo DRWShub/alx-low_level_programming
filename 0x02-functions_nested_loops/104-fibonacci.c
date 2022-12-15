@@ -7,12 +7,13 @@
 
 int main(void)
 {
-	int i, sum = 0, n = 98;
+	int i, n1 = 0, n2 = 1, sum, n = 98;
 
 	for (i = 0; i < n; i++)
 	{
-		sum = (n - 2) + (n - 1);
-		printf("%d", sum);
+		sum = n1 + n2;
+		printf("%d\n", sum);
+		n1 = n2;
 	}
 	return (0);
 }
