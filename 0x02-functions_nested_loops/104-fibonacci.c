@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int first = 0, second = 1, sum, i;
+	uint64_t first = 0, second = 1, sum, i;
 	
 	for (i = 1; i<= 98; i++)
 	{
