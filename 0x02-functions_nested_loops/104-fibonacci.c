@@ -11,9 +11,9 @@ int main(void)
 
 	for (i = 0; i < n; i++)
 	{
-		sum = n1 + n2;
 		printf("%d", sum);
 		n1 = n2;
+		n2 = sum;
 	}
 	sum = n1 + n2;
 	printf("%d", sum);
