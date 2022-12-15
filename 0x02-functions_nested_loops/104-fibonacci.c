@@ -23,5 +23,7 @@ int main(void)
 		first = second;
 		second = sum;
 	}
+	sum = first + second;
+	printf("%u, ", sum);
 	return (0);
 }
