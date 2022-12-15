@@ -17,7 +17,7 @@ int main(void)
 		}
 		else if (n == 1)
 		{
-			sum - 1;
+			sum = 1;
 		}
 		else
 		{
