@@ -11,19 +11,8 @@ int main(void)
 
 	for (i = 0; i < n; i++)
 	{
-		if (i == 0)
-		{
-			sum = 0;
-		}
-		else if (i == 1)
-		{
-			sum = 1;
-		}
-		else
-		{
-			sum = (n - 2) + (n - 1);
-		}
+		sum = (n - 2) + (n - 1);
+		printf("%d", sum);
 	}
-	printf("%d", sum);
 	return (0);
 }
