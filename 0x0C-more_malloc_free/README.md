@@ -1,13 +1,12 @@
-#0x0C. C - More malloc, free
-#Resources
+# 0x0C. C - More malloc, free
+# Resources
 
-#Read or watch:
+### Read or watch:
 
-#   Do I cast the result of malloc?
+###   Do I cast the result of malloc?
 
-#   man or help:
+###   man or help:
 
-#       exit (3)
-#	    calloc
-#	        realloc
-
+###       exit (3)
+####	    calloc
+####	        realloc
