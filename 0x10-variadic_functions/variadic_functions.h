@@ -8,6 +8,12 @@
  * #f: print function
  */
 
+typedef struct print
+{
+	char *t;
+	void (*f)(va_list);
+} print_t;
+
 int sum_them_all(const unsigned int n, ...);
 
 #endif
