@@ -1,5 +1,5 @@
-#ifndef _VARIADIC_FUNTIONS_H
-#define _VARIADIC_FUNCTIONS_H
+#ifndef _VARIADIC_FUNTIONS_H_
+#define _VARIADIC_FUNCTIONS_H_
 
 #include <stdarg.h>
 /**
@@ -16,4 +16,4 @@ typedef struct print
 
 int sum_them_all(const unsigned int n, ...);
 
-#endif
+#endif /* _VARIADIC_FUNCTIONS_H_ */
