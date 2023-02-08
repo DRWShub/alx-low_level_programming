@@ -1,6 +1,6 @@
 # C foundation - C is a low-level programming language suitable for handling kernel operations
 * Kernel Operations
-* File management.
+    * File management.
     * Process management.
     * I/O management.
     * Memory management.
