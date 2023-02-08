@@ -33,5 +33,3 @@
         Redirections
         Syscalls
     Static Libraries
-    Social Media
-    Public Speaking/Stand ups
