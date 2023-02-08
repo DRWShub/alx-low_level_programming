@@ -1,4 +1,10 @@
-# C foundation - C is a low-level programming language suitable for writing kernel
+# C foundation - C is a low-level programming language suitable for handling kernel operations
+* Kernel Operations
+* File management.
+    * Process management.
+    * I/O management.
+    * Memory management.
+    * Device management. etc.
 ### Learning C the ALX way 
 #### C-is-fun
 
