@@ -1,4 +1,3 @@
-0-linear.c
 #include "search_algos.h"
 
 /**
@@ -12,16 +11,16 @@
  */
 int linear_search(int *array, size_t size, int value)
 {
-	int ls;
+	int i;
 
 	if (array == NULL)
 		return (-1);
 
-	for (ls = 0; ls < (int)size; i++)
+	for (i = 0; i < (int)size; i++)
 	{
-		printf("Value checked array[%u] = [%d]\n", ls, array[ls]);
-		if (value == array[ls])
-			return (ls);
+		printf("Value checked array[%u] = [%d]\n", i, array[i]);
+		if (value == array[i])
+			return (i);
 	}
 	return (-1);
 }
