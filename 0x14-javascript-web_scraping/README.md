@@ -1,5 +1,5 @@
-0x14. JavaScript - Web scraping
-# General
+# 0x14. JavaScript - Web scraping
+General
 
     Why JavaScript programming is amazing
     How to manipulate JSON data
